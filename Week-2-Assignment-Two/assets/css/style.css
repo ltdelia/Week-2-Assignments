@@ -1,0 +1,309 @@
+* {
+	box-sizing: border-box;
+}
+/* Applies to Header at the top of the page */
+
+.headerback{
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+.topbanner{
+	background-color: #ffffff;
+	border-bottom:2px solid;
+	border-color: #cccccc;
+	overflow: auto;
+	position:fixed;
+	width:100%;
+	z-index:2;
+}
+
+/* Generates teal background for portion of header with name */
+
+.tealback{
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 48px;
+	font-weight: bold;
+	padding:20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	float:left;
+}
+
+/* Used for text on top of portfolio images */
+
+.tealbacka{
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	padding:5px 10px 5px 10px;
+	position:absolute;
+	float:left;	
+	z-index:2000;
+}
+
+.tealbackb{
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	padding:5px 10px 5px 10px;
+	position:absolute;
+	float:right;	
+	z-index:2000;
+}
+
+/* Applies to 'About' 'Portfolio' and 'Contact' links on top right of pages */
+
+.apc{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float:right;
+	margin-right:40px;
+	padding-top:50px;
+}
+
+/* About Me section styling */
+
+#aboutme{
+	float:left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width:1px;
+	border-style:solid;
+	height:392.22222px;
+	margin-top:100px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-left:100px;
+	padding:20px;
+	width: 592px;
+}
+
+#meheader{
+	border-bottom:3px solid;
+	border-color: #cccccc;
+	padding-bottom:10px;
+}
+
+#meimg{
+	float:left;
+	height: 200px;
+	width:150px;
+}
+
+#para{
+	float:right;
+	margin-top:200px;
+	padding:0px 20px 20px 50px;
+}
+
+/* Contact Me styling section */
+
+#contactme{
+	float:left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width:1px;
+	border-style:solid;
+	height:390px;
+	margin-top:100px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-left:100px;
+	padding:20px;
+	width: 592px;	
+}
+
+/* Submit button styling for Contact page */
+
+#submit{
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding:20px;
+	width:300px;
+}
+
+/* Styling for Portfolio page */
+
+#portfolio{
+	float:left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width:1px;
+	border-style:solid;
+	height:392.22222px;
+	margin-top:100px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-left:100px;
+	padding:20px;
+	width: 592px;	
+}
+
+/* Styling for all images and text in portfolio section */
+
+.portfolioimg{
+	height:85px;
+	width:185px;
+	margin-bottom:20px;
+}
+
+#hangmanimg{
+	float:left;
+	position:relative;
+}
+
+#hangmantext{
+	margin-top:50px;
+	width:185px;
+	text-align:center;
+}
+
+#rpgimg{
+	float:right;
+	position:relative;
+}
+
+#rpgtext{
+	margin-top:51px;
+	margin-left:365px;
+	width:185px;
+	text-align:center;		
+}
+
+#triviaimg{
+	float:left;
+	position:relative;
+}
+
+#triviatext{
+	margin-top:155px;
+	width:185px;
+	text-align:center;		
+}
+
+#rutgersimg{
+	float:right;
+	position:relative;
+}
+
+#rutgerstext{
+	margin-top:155px;
+	margin-left:365px;
+	width:185px;
+	text-align:center;
+}
+
+#rockimg{
+	float:left;
+	position:relative;
+}
+
+#rocktext{
+	margin-top:260px;
+	width:185px;
+	text-align:center;	
+}
+
+/* Connect with Me section styling */
+
+#connectme{
+	float:right;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width:2px;
+	border-style:solid;
+	margin-top:100px;
+	margin-right:10px;
+	padding:20px;
+}
+
+#connectheader{
+	border-bottom:3px solid;
+	border-color: #cccccc;
+	padding-bottom:10px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:26px;
+	font-weight:bold;
+}
+
+.connectimg{
+	height:75px;
+	width:75px;
+	padding:5px;
+}
+
+/* Footer styling */
+
+#footerbottom{
+	background-color: #666666;
+	border-top:10px solid;
+	border-color:#4aaaa5;
+	bottom:0;
+	color:#aca4a7;
+	clear:both;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding:50px;
+	position:fixed;
+	text-align: center;
+	width:100%;
+}
+
+body{
+	max-width:1280px;
+}
+
+h1{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:36px;
+	font-weight:bold;
+}
+
+a{
+	color:#777777;
+	text-decoration:none;
+}
+
+form{
+	color:#777777;;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input{
+	height:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	width:550px;
+}
+
+p{
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position:relative;
+	bottom: 200px;
+	width: 400px;	
+	line-height:1.5;
+	padding:0px 20px 20px 20px;
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+	
+}
+
+@media screen and (max-width: 640px){
+	header{
+		position:static;
+	}
+}

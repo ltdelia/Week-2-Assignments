@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+.connectimg{
+	height:75px;
+	width:75px;
+	padding:5px;
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+	
+}
+
+@media screen and (max-width: 640px){
+	header{
+		position:static;
+	}
+}
