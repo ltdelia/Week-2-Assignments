@@ -1,2 +1,2 @@
-# Week-2-Assignments
-Repository for RCB Week 2 Assignments
+# Louis T. Delia
+Portfolio Pages - Mobile Responsive and Incorporating Bootstrap
